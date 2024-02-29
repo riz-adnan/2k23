@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@400;500;700&family=Righteous&display=swap');
+@font-face {
+    font-family: verve-alternate;
+    src: url("../../Fonts/VerveAlternate.ttf");
+}
+
+@font-face {
+    font-family: good-times;
+    src: url("../../Fonts/good\ times\ rg.otf");
+}
+
+.home-head{
+    background-image: url('./Images/homeBackground.gif');
+    width: 100%;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.home-heading{
+    font-family: 'Yellowtail', cursive;
+    font-size: 14vw;
+    text-shadow: 0 2px 5px #fdfdfd, 0 0 5px rgb(254, 251, 251);
+    /* margin: auto; */
+    position: relative;
+    top: 50%;
+}
+
+.dates{
+    position: relative;
+    top: 60%;
+}
+
+.homePage-body{
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+
+.Countdown-Clock{
+    font-family: verve-alternate;
+}
+
+/* About section */
+
+.about{
+    padding-top: 2.5%;
+}
+
+.about-head{
+    font-family: 'Bungee Shade', cursive;
+    padding-bottom: 2%;
+    color: #C9DEE7;
+}
+
+.about-details{
+    padding-top: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.about-count{
+    /* height: 175vh; */
+    /* background-color: black; */
+    background-image: url(Images/Group153.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-; */
+    /* background-size: cover; */
+    
+    position: relative;
+    margin-bottom: 1%;
+}
+
+.about-part-1{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 7%;
+}
+
+.about1{
+    width: 11vw;
+    height: 11vw;
+    background: rgba(0, 0, 0, 0.5);
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #FFFFFF;
+}
+
+.about-circles{
+    padding-top: 7%;
+}
+
+.about-des{
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 65px;
+}
+
+.about-content{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 39px;
+}
+
+.about-stats{
+    /* margin-top: 50%; */
+    /* justify-content: baseline; */
+    padding-top: 15%;
+}
+
+.about-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.about-heading{
+    font-family: good-times;
+    padding-bottom: 7%;
+}
+
+/* Events section */
+
+.home-events{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.events-header{
+    font-family: good-times;
+    padding-bottom: 4%;
+    color: #C9DEE7;
+    
+}
+
+.events-desc{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1vh;
+}
+
+/* Gallery */
+
+.gallery{
+    padding-bottom: 2%;
+}
+
+.gallery-head{
+    font-family: 'Bungee Shade', cursive;
+    padding-bottom: 1%;
+    color: #C9DEE7;
+}
+
+/* scrolling arrow */
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50.6%;
+	margin-left: -30px;
+	bottom: 60px;
+}
+
+.arrows path {
+	stroke: #FFFFFF;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow 
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; 
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; 
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; 
+}
+
+@media only screen and (max-width: 600px) {
+    .events-header{
+        margin-bottom: 5%;
+        padding-bottom: 9%;
+    }
+    .home-carousel-memories{
+        padding-bottom: 40%;
+    }
+    .about-text{
+        font-size: 90%;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .events-header{
+        margin-bottom: 5%;
+        padding-bottom: 9%;
+    }
+    .home-carousel-memories{
+        padding-bottom: 40%;
+    }
+    .about-text{
+        font-size: 85%;
+        padding-bottom: 5%;
+    }
+}

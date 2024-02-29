@@ -1,0 +1,53 @@
+.inputClass {
+  padding: 15px;
+  margin: 10px 0px;
+}
+.formElement {
+  background: #fff;
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  background-color: black;
+
+}
+.formElement .input-data input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #74F7FD;
+  background-color: black;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.input-data input:focus ~ label, .input-data input:valid ~ label{
+  transform: translateY(-1.3em);
+}
+.formElement .input-data label{
+  position: relative;
+  bottom: 1.7em;
+  left: 0;
+  color: grey;
+  pointer-events:none;
+  transition: all 0.3s ease;
+  font-size: 1em;
+}
+.textInput{
+  color: #fff;
+}
+.icon i{
+  padding: 5px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid white;
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  /* transition: background-color 5000s ease-in-out 0s; */
+}

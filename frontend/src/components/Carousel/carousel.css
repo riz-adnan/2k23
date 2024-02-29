@@ -1,0 +1,186 @@
+/*
+file to style the carousel
+styles are applied using the class names of the elements (no generalized styling is done)
+responsive design is implemented
+*/
+
+.gridItem{
+    padding:20px;
+    position: relative;
+    display: flexbox;
+}
+
+/* Carousel Styling */
+
+.tag {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: auto;
+    margin: auto;
+    color:azure
+}
+  
+/* Image Styling */
+
+
+.slideImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 70vh;
+    height: auto;
+    padding: auto;
+}
+.imageSlide {
+    margin:auto;
+    padding:auto;
+}
+
+/* Overall Slide Styling */
+
+.slideContent{
+    width: 50vw;
+    height: auto;
+    min-height:50vh;
+    margin: auto;
+    padding: auto;
+    background-color: #0000;
+    
+    
+    border-radius: 30px;
+    box-sizing: border-box;
+    position:relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Slide Heading Styling */
+
+.slideHeading_work{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vh;
+    color:#ff0053;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.slideHeading_tech{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vh;
+    color:#DC2EFA;
+    padding-top: 20px;;
+    text-align: center;
+}
+
+.slideHeading_cult{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vh;
+    color:#B4F40C;
+    padding-top: 20px;;
+    text-align: center;
+}
+
+
+
+
+
+/* Slide Description Styling */
+
+.slideDescription{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 1200px){
+    .slideDescription{
+        display: none;
+    }
+}
+
+
+
+/* Dots Styling */
+
+.slick-dots li.slick-active button:before {
+    color:#9A5885 !important;
+}
+
+.slick-dots li button:before {
+    color:#9A5885 !important;
+    font-size: 3vh;
+    position:absolute;
+    top: 10px !important;
+   
+}
+
+
+
+
+
+
+
+/* Arrow Styling */
+
+.slick-prev{
+    left: -7vw;
+    color: #9a5885 !important;
+    
+}
+
+.slick-next{
+    right:-7vw;
+    color: #9a5885 !important;
+}
+
+@media only screen and (max-width: 600px){
+    .slideHeading_work{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3vh;
+        color:#ff0053;
+        padding-top: 20px;;
+        text-align: center;
+    }
+    
+    .slideHeading_tech{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3vh;
+        color:#DC2EFA;
+        padding-top: 20px;;
+        text-align: center;
+    }
+    
+    .slideHeading_cult{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3vh;
+        color:#B4F40C;
+        padding-top: 20px;;
+        text-align: center;
+    }
+    .slideContent{
+        width:100%;
+    }
+}
+
+
+

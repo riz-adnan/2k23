@@ -1,0 +1,116 @@
+.container_card {
+    border-color: #fc7cd3;
+    border-width: 1px;
+    border-radius: 15px;
+    background-color: #000;
+    padding: 10px 10px;
+}
+
+.styled-complete-card{
+    margin:auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.styled-card{
+    
+    width: 345px;
+    padding: 20px 10px;
+    border-color:#fc7cd3;
+    border-width: 2px;
+    border-radius: 15px;
+    background: #000 ;
+    color:#ffffff;
+    box-shadow: 0px 0px 15px 2.5px #fc7cd3;;
+    font-weight: 400;
+    justify-content: center;
+    margin: auto;
+   
+}
+
+.styled-card_body{
+    height:200px;
+    padding:20px 20px;
+    justify-content: center;
+    margin:auto;
+    padding: auto;
+    align-items: center;
+}
+
+.styled-cardImage{
+    width: 325px;
+    height:200px;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.styled-cardImage:hover{
+    transform: scale(1.025); 
+}
+
+.styled-card-title {
+  font-style:italic;
+  text-align: center;
+}
+
+.styled-card-text {
+  font-family: sans-serif;
+}
+
+
+.cardRegister, .cardButton{
+    display: inline-block;
+    padding: 10px 10px;
+    width:37%;
+    color:#fc7cd3;;
+    font-size: 0.75em;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    border-color:#fc7cd3;;
+    border-width: 2px;
+    border-radius: 15px;
+    background: #000 ;
+    box-shadow: 0px 0px 10px 2.5px #9A5885;
+    margin:0px 20px 0px 20px;
+    font-weight: bold;
+    
+}
+
+.cardRegister:hover,.cardButton:hover{
+    background:#fc7cd3;
+    color: #FFFFFF;
+    border-width: 3px;
+    border-color:#FFFFFF;
+    box-shadow: 0px 0px 30px 15px #9A5885;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    
+}
+
+.cardButton{
+    float: right;
+    
+}
+
+.cardRegisterNew{
+    display: inline-block;
+    padding: 10px 10px;
+    width:37%;
+    color:#fc7cd3;;
+    font-size: 0.75em;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    background: #000 ;
+    font-weight: bold;
+}
+
+
+
+
+

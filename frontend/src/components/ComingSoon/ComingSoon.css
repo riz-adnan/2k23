@@ -1,0 +1,91 @@
+
+  .ComingSoon_container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ComingSoon_background{
+    height: 100vh;
+    font-size: 3rem !important;
+    background: #171717f2;
+    background-image: url("tirutsava_bg1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    overflow-x: hidden;
+    align-items: center;
+  }
+  
+  .ComingSoon_container{
+    padding: 0;
+    margin: 0;
+    
+    color: #000;
+    text-shadow: -3px 1px 2px rgba(84, 84, 84, 0.5);
+    font-size: 3rem !important;
+    color: #fff;
+    
+    font-family: monospace, Sans-serif;
+  }
+  
+  .ComingSoon_span:before{
+    content:'';
+    animation: animate infinite 8s;
+  }
+
+  @keyframes animate{
+    
+    0%{
+      content: ''
+    }
+    8%{
+      content: 'C'
+    }
+    15%{
+      content: 'Co'
+    }
+    23%{
+      content: 'Com'
+    }
+    31%{
+      content: 'Comi'
+    }
+    38%{
+      content: 'Comin'
+    }
+    46%{
+      content: 'Coming'
+    }
+    54%{
+      content: 'Coming S'
+    }
+    61%{
+      content: 'Coming So'
+    }
+    69%{
+      content: 'Coming Soo'
+    }
+    77%{
+      content: 'Coming Soon'
+    }
+    85%{
+        content: 'Coming Soon .'
+    }
+    92%{
+        content: 'Coming Soon ..'
+    }
+    100%{
+        content: 'Coming Soon ...'
+    }
+   
+  }
+  
+  @media only screen and (max-width: 850px) {
+    .ComingSoon_container{
+      font-size: 1.5rem !important;
+    }
+  }
+  
+
+  

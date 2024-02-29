@@ -1,0 +1,35 @@
+.merch-card{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.merch-image{
+    /* border: 5px solid #D93CAF; */
+    border-radius: 5px;
+    width: 40%;
+    background: rgba(217, 217, 217, 0.2);
+    /* border: 3px solid #D93CAF; */
+    /* box-shadow: 0px 0px 20px #D93CAF; */
+    border-radius: 15px;
+}
+
+.merch-details{
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.merch-name{
+    font-family: 'Righteous', cursive;
+}
+
+.price{
+    font-family: 'Righteous', cursive;
+}
+
+.merch-card h3{
+    font-family: 'Righteous', cursive;
+}
+
+.buy-quant{
+    margin-top: 7%;
+}

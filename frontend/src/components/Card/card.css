@@ -1,0 +1,451 @@
+.CardContainer {
+    background-color: #000;
+ }
+ .styled-ImageCard{
+    margin:7.5% 5% 5% 5%;
+    position:relative;
+ }
+
+.styled-badgeImage{
+    position:absolute;
+    transform: scale(0.10);
+    
+
+}
+
+.StyledCard_cult{
+    margin: 2rem;
+    border-color : #B4F40C;
+    border-width: 2px;
+    border-radius: 15px;
+    background: #000 ;
+    color:#ffffff;
+    box-shadow: 0px 0px 25px #B4F40C;
+    margin-bottom: 1.5rem;
+    height:48vh;
+
+}
+
+ .styled-cardImage{
+    align-self: center;
+    max-width: 100%;
+    border-width: 1px;
+}
+
+
+.CardBody{
+    margin-bottom: 3rem;
+    font-size: 11px;
+}
+ 
+.styled-card-title_cult {
+  text-align:left;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #B4F40C;
+  font-family: 'Poppins',sans-serif;
+  position:absolute;
+  top:70%;
+}
+
+.styled-card-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F5F5F5;
+}
+
+.card_buttons{
+    margin-top:20%;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.CardRegister_cult, .CardButton_cult{
+    font-family: 'Poppins', sans-serif;;
+    display: inline-block;
+    text-align: center;
+    width:37%;
+    font-size: 0.75em;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
+    font-size: 18px;
+}
+
+.CardRegister_cult{
+    border: 1px solid #B4F40C;
+    backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    color : #FFFFFF;
+    margin: auto;
+}
+.CardButton_cult{
+    right: 1rem;
+    float:right;
+    backdrop-filter: blur(2.5px);
+    border: 1px solid #B4F40C;
+    border-radius: 10px;
+    color : #FFFFFF;
+    margin:auto;
+}
+
+.CardRegister_cult:hover,.CardButton_cult:hover{
+    background-color: #B4F40C;
+    border:1px solid #B4F40C;
+    box-shadow :0px 0px 10px #B4F40C;
+}
+
+.StyledCard_tech{
+    margin: 2rem;
+    border-color : #DC2EFA;
+    border-width: 2px;
+    border-radius: 15px;
+    background: #000 ;
+    color:#ffffff;
+    box-shadow: 0px 0px 25px #DC2EFA;
+    margin-bottom: 1.5rem;
+    height:48vh;
+     
+ }
+
+ .styled-card-title_tech {
+    text-align:left;
+    text-transform: uppercase;
+    font-size: 25px;
+    color:#DC2EFA;
+    font-family: 'Poppins',sans-serif;
+    position:absolute;
+    top:70%;
+  }
+
+  .CardRegister_tech, .CardButton_tech{
+    font-family: 'Poppins', sans-serif;;
+    display: inline-block;
+    text-align: center;
+    width:37%;
+    font-size: 0.75em;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
+    font-size: 18px;
+}
+
+  .CardRegister_tech{
+    border: 1px solid #DC2EFA;
+    backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    color : #FFFFFF;
+    margin: auto;
+}
+.CardButton_tech{
+    right: 1rem;
+    float:right;
+    backdrop-filter: blur(2.5px);
+    border: 1px solid#DC2EFA;
+    border-radius: 10px;
+    color : #FFFFFF;
+    margin:auto;
+}
+.CardRegister_tech:hover,.CardButton_tech:hover{
+    background-color: #DC2EFA;
+    border:1px solid #DC2EFA;
+    box-shadow :0px 0px 10px #DC2EFA;
+}
+
+.StyledCard_work{
+    margin: 2rem;
+    border-color : #ff0053;
+    border-width: 2px;
+    border-radius: 15px;
+    background: #000 ;
+    color:#ffffff;
+    box-shadow: 0px 0px 25px #ff0053;
+    margin-bottom: 1.5rem;
+    height:48vh;
+     
+ }
+
+ .styled-card-title_work{
+    text-align:left;
+    text-transform: uppercase;
+    font-size: 25px;
+    color:#ff0053;
+    font-family: 'Poppins',sans-serif;
+    position:absolute;
+    top:70%;
+  }
+
+  .CardRegister_work, .CardButton_work{
+    font-family: 'Poppins', sans-serif;;
+    display: inline-block;
+    text-align: center;
+    width:37%;
+    font-size: 0.75em;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
+    font-size: 18px;
+}
+
+  .CardRegister_work{
+    border: 1px solid #ff0053;
+    backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    color : #FFFFFF;
+    margin: auto;
+}
+.CardButton_work{
+    right: 1rem;
+    float:right;
+    backdrop-filter: blur(2.5px);
+    border: 1px solid#ff0053;
+    border-radius: 10px;
+    color : #FFFFFF;
+    margin:auto;
+}
+.CardRegister_work:hover,.CardButton_work:hover{
+    background-color: #ff0053;
+    border:1px solid #ff0053;
+    box-shadow :0px 0px 10px #ff0053;
+}
+
+
+
+
+
+@media only screen and (max-width: 1400px){
+    .styled-cardImage{
+        margin:0px 0 10% 0;
+    }
+    .styled-card-title_cult{
+        font-size:20px;
+        top:72%;
+    }
+    .styled-card-title_tech{
+        font-size:20px;
+        top:72%;
+    }
+    .styled-card-title_work{
+        font-size:20px;
+        top:72%;
+    }
+    
+    .CardRegister_cult, .CardButton_cult{
+        display: inline-block;
+        text-align: center;
+        width:37%;
+        font-size: 0.8em;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.5s;
+        font-weight: bold;
+        position: absolute;
+        bottom: 1rem;
+    }
+    
+    .CardRegister_cult{
+        border: 1px solid #B4F40C;
+        backdrop-filter: blur(2.5px);
+        border-radius: 10px;
+        color : #FFFFFF;
+        margin: auto;
+    }
+    .CardButton_cult{
+        right: 1rem;
+        float:right;
+        backdrop-filter: blur(2.5px);
+        border: 1px solid #B4F40C;
+        border-radius: 10px;
+        color : #FFFFFF;
+        margin:auto;
+    }
+    .StyledCard_cult{
+        height:48vh;
+    }
+    
+    .CardRegister_tech, .CardButton_tech{
+        display: inline-block;
+        text-align: center;
+        width:37%;
+        font-size: 0.80em;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.5s;
+        font-weight: bold;
+        position: absolute;
+        bottom: 1rem;
+    }
+    
+    .CardRegister_tech{
+        border: 1px solid #DC2EFA;
+        backdrop-filter: blur(2.5px);
+        border-radius: 10px;
+        color : #FFFFFF;
+        margin: auto;
+    }
+    .CardButton_tech{
+        right: 1rem;
+        float:right;
+        backdrop-filter: blur(2.5px);
+        border: 1px solid #DC2EFA;
+        border-radius: 10px;
+        color : #FFFFFF;
+        margin:auto;
+    }
+    .StyledCard_tech{
+        height:48vh;
+    }
+    .CardRegister_work, .CardButton_work{
+        display: inline-block;
+        text-align: center;
+        width:37%;
+        font-size: 0.80em;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.5s;
+        font-weight: bold;
+        position: absolute;
+        bottom: 1rem;
+    }
+    
+    
+    .CardRegister_work{
+        border: 1px solid #ff0053;
+        backdrop-filter: blur(2.5px);
+        border-radius: 10px;
+        color : #FFFFFF;
+        margin: auto;
+    }
+    .CardButton_work{
+        right: 1rem;
+        float:right;
+        backdrop-filter: blur(2.5px);
+        border: 1px solid #ff0053;
+        border-radius: 10px;
+        color : #FFFFFF;
+        margin:auto;
+    }
+    .StyledCard_work{
+        height:48vh;
+    }
+
+  }
+
+  
+  @media only screen and (max-width: 1200px){
+    .styled-cardImage{
+        margin:0px 0 10%;
+        width:30rem;
+        height:8rem;
+    }
+    .CardRegister_work, .CardButton_work{
+        font-size:0.60em;
+    }
+
+    .CardRegister_tech, .CardButton_tech{
+        font-size:0.60em;
+    }
+    .CardRegister_cult, .CardButton_cult{
+        font-size:0.60em;
+    }
+    
+    .StyledCard_work{
+        height:30vh;
+    }
+    .StyledCard_cult{
+        height:30vh;
+    }
+    .StyledCard_tech{
+        height:30vh;
+    }
+    .styled-card-title_cult{
+        font-size:20px;
+        top:60%;
+    }
+    .styled-card-title_tech{
+        font-size:20px;
+        top:60%;
+    }
+    .styled-card-title_work{
+        font-size:20px;
+        top:60%;
+    }
+}
+
+  @media only screen and (max-width: 800px){
+    .styled-cardImage{
+        margin:0px 0 10%;
+        width:30rem;
+        height:8rem;
+    }
+    .StyledCard_work{
+        height:36vh;
+    }
+    .StyledCard_cult{
+        height:36vh;
+    }
+    .StyledCard_tech{
+        height:36vh;
+    }
+    .styled-card-title_cult{
+        font-size:20px;
+        top:60%;
+    }
+    .styled-card-title_tech{
+        font-size:20px;
+        top:60%;
+    }
+    .styled-card-title_work{
+        font-size:20px;
+        top:60%;
+    }
+}
+ 
+
+@media only screen and (max-width: 600px){
+    .styled-cardImage{
+        margin:0px 0 10%;
+    }
+    .StyledCard_work{
+        height:36vh;
+    }
+    .StyledCard_cult{
+        height:36vh;
+    }
+    .StyledCard_tech{
+        height:36vh;
+    }
+    .styled-card-title_cult{
+        font-size:20px;
+        top:65%;
+    }
+    .styled-card-title_tech{
+        font-size:20px;
+        top:65%;
+    }
+    .styled-card-title_work{
+        font-size:20px;
+        top:65%;
+    }
+    .styled-cardImage{
+        margin:0px 0 10%;
+        width:30rem;
+        height:9rem;
+    }
+}
+
+
+

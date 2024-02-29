@@ -1,0 +1,127 @@
+.registerPage{
+  background-color: #000000;
+}
+.formClass .btn {
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.formClass input::placeholder {
+  color: #484848;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+}
+
+.formClass .btn input[type="submit"] {
+  padding: 3px;
+  margin: 6px;
+  background-color: #74F7FD;
+  box-shadow: 0px 0px 50px #74F7FD;
+  border-radius: 40px;
+  width: 35%;
+  height: 3.5em;
+  font-size: 16px;
+}
+
+.formClass form {
+
+  background-color:#000000;
+  border-color: none;
+  border: 2px solid #74F7FD;
+  border-radius: 15px;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.formClass form label {
+  color: palevioletred;
+  font-family: 'Poppins', sans-serif;
+}
+
+.formClass {
+  display: flex;
+  justify-content: center;
+}
+
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+
+}
+
+.neonText {
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: 0px 0px 35px #dd0dff, 0px 0px 10px #dd0dff;
+}
+
+.formClass .inputElements {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.formClass input:focus {
+  outline: none;
+}
+
+.image h1 {
+  font-family: 'Good Times';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.formClass form {
+  min-width: 50%;
+}
+
+.App {
+  background-color: #000000;
+}
+
+.formClass form .inputElements {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formClass form .inputElements .formElement {
+  width: calc(100% / 2);
+}
+
+@media only screen and (max-width: 1024px) {
+  .formClass form .inputElements .formElement {
+    width: calc(100%);
+  }
+
+  .formClass form {
+
+    background-color:#000000;
+    border-color: none;
+    border: 2px solid #74F7FD;
+    border-radius: 15px;
+    width: 50%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .formClass form {
+    min-width: 90%;
+  }
+
+}

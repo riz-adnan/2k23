@@ -1,0 +1,54 @@
+
+
+.eventItem{
+    position: relative;
+    display: flexbox;
+}
+
+
+.eventImage {
+    width: 100%;
+    max-width: 40vh;
+    max-height: 40vh;
+    height: auto;
+    margin:25% 1.5% 25% 1.5%;
+}
+
+.eventContent{
+    width: 95%;
+    height: auto;
+    min-height:20vh;
+    padding: 4%;
+    background-color: #0000;
+    
+    margin:auto;
+    border-radius: 30px;
+    box-sizing: border-box;
+    position:relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

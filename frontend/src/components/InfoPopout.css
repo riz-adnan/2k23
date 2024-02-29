@@ -1,0 +1,48 @@
+.font-righteous{
+  font-family: 'righteous', sans-serif !important;
+}
+.wkm-title{
+  color: #ff0053;
+}
+
+.wkm-section-header{
+  font-weight: 400 !important;
+  color: white;
+  background-color: #ff0053;
+  border-color: #ff0053 !important;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.wkm-button{
+  border-radius: 15px !important;
+  border-color: #ff0053 !important;
+  background-color: transparent;
+  font: 'righteous', sans-serif !important;
+
+}
+
+.wkm-button:hover{
+  background-color: #ff0053 !important;
+  color: white;
+}
+
+.wkm-register{
+  background-color: rgba(255, 0, 83, 0.2);
+  color: white;
+  border-color: #ff0053 !important;
+  box-shadow: 0 4px 30px #ff0053;
+  box-shadow: 0 4px 30px rgba(255, 0, 83, 0.9);
+}
+
+.font-poppins{
+  font-family: 'poppins', sans-serif !important;
+}
+
+.infopopoutBody::-webkit-scrollbar, .infopopoutBody::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.infopopoutBody::-webkit-scrollbar-thumb, .infopopoutBody::-webkit-scrollbar-thumb {
+  background: #ff0053;
+}

@@ -1,0 +1,44 @@
+.canvas {
+  z-index: 0;
+}
+
+.logo3d {
+    position: fixed;
+    top: 10px;
+    z-index: 99999999999999999999999999999999999;
+    width: 100%;
+  }
+
+  .intro {
+    position: fixed;
+    top: 80%;
+    text-align: center;
+    z-index: 99999999999999999999999999999999999;
+    width: 100%;
+    color: rgb(202, 199, 199);
+    font-size:larger;
+  }
+  
+  .map3d {
+    position:fixed ;
+    bottom: 20px;
+    width: 100%;
+    left: 10px;
+    color: rgb(202, 199, 199);
+    font-size:small;
+    z-index: 999999999999999;;
+  }
+
+  .canvas3d {
+    position:fixed ;
+    z-index: -20;
+  }
+
+.overlay{
+    position: fixed; /* Sit on top of the page content */
+}
+
+.html3d{
+  background-color: black;
+}
+

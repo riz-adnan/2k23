@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css?family=ABeeZee:400,400i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+.pr-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  max-width: 100%;
+  color: white;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.pr-card-img {
+  position: relative;
+  height: auto;
+}
+
+.pr-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 900px;
+}
+
+.pr-date-time {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+}
+
+.pr-date-time-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+}
+
+.pr-date-time,
+.pr-event {
+  font-family: 'ABeeZee';
+}
+
+.pr-card-img,
+.pr-date-content,
+.pr-time-content,
+.pr-event-content {
+  border: 3px solid #74F7FD;
+  box-shadow: 0px 3px 7px 1px #74F7FD, inset 0px 3px 7px 1px #74F7FD;
+  border-radius: 15px;
+  padding: 20px;
+  font-family: 'Poppins';
+}
+
+.pr-card-img {
+  padding: 0;
+}
+
+.pr-event-content {
+  max-height: 300px;
+  overflow-y: scroll;
+  padding-right: 15px;
+}
+
+.pr-event-content::-webkit-scrollbar {
+  margin-right: 5px;
+  width: 8px;
+}
+
+.pr-event-content::-webkit-scrollbar-track {
+  display: none;
+}
+
+.pr-event-content::-webkit-scrollbar-thumb {
+  background-color: #74F7FD;
+  border-radius: 5px;
+}
+
+.pr-event-content::-webkit-scrollbar-thumb:hover {
+  background-color: #00a6af;
+}
+
+.pr-event-content::-webkit-scrollbar-thumb:vertical {
+  min-height: 30px;
+}
+
+.pr-event-content::-webkit-scrollbar-thumb:horizontal {
+  min-width: 30px;
+}
+
+.pr-event-content::-webkit-scrollbar-thumb {
+  background-color: #74F7FD;
+  border-radius: 5px;
+}
+
+.pr-event-content::-webkit-scrollbar-thumb:hover {
+  background-color: #00a6af;
+}
+
+/* Hide the scrollbar by default */
+.pr-event-content::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Show the scrollbar on hover */
+.pr-event-content:hover::-webkit-scrollbar-thumb {
+  background-color: #00a6af;
+}
+
+
+@media screen and (max-width: 1600px) and (min-width: 1221px) {
+  .pr-card {
+    max-width: 1220px;
+    font-size: 0.8rem;
+    /* add max-width */
+  }
+
+  h1,
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 1220px) and (min-width: 919px) {
+  .pr-card {
+    max-width: 920px;
+    /* change from transform: scale(0.5); */
+  }
+
+  .pr-card-img {
+    max-width: 600px;
+    height: auto;
+  }
+
+  h1,
+  h2 {
+    font-size: 1rem;
+  }
+
+  .pr-date-content,
+  .pr-time-content,
+  .pr-event-content {
+    padding: 10px;
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+  .pr-card {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+    /* change from transform: scale(0.5); */
+  }
+
+  .pr-card-img,
+  .pr-date-content,
+  .pr-time-content,
+  .pr-event-content {
+    border: 0;
+    box-shadow: none;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Poppins';
+  }
+
+  .pr-card-img {
+    padding: 0;
+  }
+
+  .pr-card {
+    border: 3px solid #74F7FD;
+    box-shadow: 0px 3px 7px 1px #74F7FD, inset 0px 3px 7px 1px #74F7FD;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Poppins';
+  }
+
+  .pr-card-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .pr-date-content,
+  .pr-time-content,
+  .pr-event-content {
+    padding: 10px;
+  }
+
+  .pr-event-content {
+    max-height: 150px;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pr-card {
+    max-width: 390px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: fit-content;
+    /* change from transform: scale(0.5); */
+  }
+
+  .pr-card-img,
+  .pr-date-content,
+  .pr-time-content,
+  .pr-event-content {
+    border: 0;
+    box-shadow: none;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Poppins';
+  }
+  .pr-card-img{
+    padding: 0;
+  }
+
+  .pr-card {
+    border: 3px solid #74F7FD;
+    box-shadow: 0px 3px 7px 1px #74F7FD, inset 0px 3px 7px 1px #74F7FD;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Poppins';
+  }
+
+  .pr-card-img {
+    max-width: 380px;
+    height: auto;
+  }
+
+  .pr-date-content,
+  .pr-time-content,
+  .pr-event-content {
+    padding: 10px;
+  }
+
+  .pr-event-content {
+    max-height: 150px;
+    overflow-y: scroll;
+  }
+}

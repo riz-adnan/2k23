@@ -1,0 +1,160 @@
+.loginPage{
+  background-color: #000000;
+ }
+ .btnn {
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50%;
+  
+  }
+
+  
+  .LoginformClass input::placeholder {
+    color: #484848;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  
+  }
+  
+  .btnn input[type="submit"] {
+    padding: 3px;
+    margin: 6px;
+    background-color: #74F7FD;
+    box-shadow: 0px 0px 50px #74F7FD;
+    border-radius: 40px;
+    width: 10rem;
+    height: 3.5em;
+    font-size: 16px;
+  }
+
+  
+  .loginForm {
+  
+    background-color:#000000;
+    border-color: none;
+    border: 2px solid #74F7FD;
+    border-radius: 15px;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .loginForm2 {
+  
+    background-color:#000000;
+    border-color: none;
+    border: 2px solid #74F7FD;
+    border-radius: 15px;
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ 
+  .loginForm label {
+    color: palevioletred;
+    font-family: 'Poppins', sans-serif;
+  }
+   
+  .LoginformClass {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* img{
+    max-width: 50%;
+  } */
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  
+  }
+  
+  .neonText {
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: 0px 0px 35px #dd0dff, 0px 0px 10px #dd0dff;
+  }
+  
+  .LoginformClass .inputElements {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+  }
+  
+  .LoginformClass input:focus {
+    outline: none;
+  }
+  
+  .image h1{
+    font-family: 'Good Times';
+    padding-top: 5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+
+  .image h3{
+    font-family: 'Good Times';
+    padding-top: 5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+  
+  .LoginformClass .loginForm {
+    min-width: 50%;
+  }
+  
+  /* .App {
+    background-color: #000000;
+  } */
+  
+  .LoginformClass .loginForm .inputElements {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .loginForm .inputElements .formElement {
+    width: calc(100%);
+  }
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid white;
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  /* transition: background-color 5000s ease-in-out 0s; */
+}
+
+
+@media only screen and (max-width: 500px) {
+  .LoginformClass .loginForm {
+    min-width: 90%;
+  }
+  .btnn input[type="submit"] {
+    width: 6rem;
+  }
+
+
+}

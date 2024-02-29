@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Text {
+  color: #fff;
+  font-family: mexcellent;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff;
+}
+
+
+
+/*added fonts*/
+
+@font-face {
+  font-family: mexcellent;
+  src: url(Fonts/mexcellentrg.otf) ;
+}
+
+@font-face {
+  font-family: righteous;
+  src: url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+} 
+
+@font-face {
+  font-family: poppins;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+} 
+
+/* Countdown Clock */
+.cdc-label{
+  font-size: 14px;
+  font-family: 'righteous', sans-serif;
+  color: #fff;
+}
+
+.cdc-time{
+  font-size: 48px;
+  font-family: 'righteous', sans-serif;
+  line-height: 35px;
+  color: #fff;
+}
+
+.cdc-timeOut{
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'righteous', sans-serif;
+}
+
+.cdc-colon{
+  font-size: 32px;
+  line-height: 35px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cdc-timeBox{
+  width: 65px;
+  height: 65px;
+}
+
+
+@font-face {
+  font-family: "Acme";
+  src: local("Acme") url('./Fonts/Acme-Regular.ttf') format("ttf");
+}

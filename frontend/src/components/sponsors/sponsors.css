@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Good Times W00 Bold';
+  src:  url('../../Fonts/Good\ Times\ W00\ Bold.ttf') format('truetype');
+}
+
+input[name="year"] {
+	accent-color: #01FFF4;
+}
+.inputContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.mainBackground{
+  background-color:black;
+  padding-top: 25px;
+  padding-bottom:20px;
+  overflow: auto;
+}
+
+.box{
+  height:150px;
+  width:80%
+}
+
+.yearContainer{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.titleName{
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+font-family: 'Acme';
+line-height: 30px;
+color:#ffffff;
+}
+
+.timelineRadio{
+  height:"17px";
+  width:"17px";
+  margin-bottom: 10px;
+};
+.titleStyle{
+  font-style: normal;
+  font-weight: 400;
+  line-height: 61px;
+}
+.comingStyle{
+  color:#ffffff;
+  font-size: 30px;
+  font-family: 'Good Times W00 Bold';
+  height:60vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px){
+  .titleStyle{
+    font-size: 28px;
+    color:#ffffff;
+  font-family: 'Good Times W00 Bold';
+  }
+  .labelStyle{
+    font-size:12px
+  }
+  .yearContainer{
+    margin:15px
+  }
+  .cardContainer{
+    width:600px
+  }
+  
+}
+@media only screen and (min-width:600px) and (max-width:768px){
+  .titleStyle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 61px;
+    color:#ffffff;
+    font-family: 'Good Times W00 Bold';
+    }
+    .timelineConnector{
+      width: 80px;
+      height: 1px;
+      margin-top:10px;
+      background-color: #01FFF4;
+    }
+    .labelStyle{
+      font-size:20px
+    }
+
+    .cardContainer{
+      width:40%
+    }
+}
+@media only screen and (min-width:769px){
+  .titleStyle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    color:#ffffff;
+    font-family: 'Good Times W00 Bold';
+    }
+    .timelineConnector{
+      width: 100px;
+      height: 1px;
+      margin-top:10px;
+      background-color: #01FFF4;
+    }
+    .labelStyle{
+      font-size: 24px;
+    }
+  
+    .cardContainer{
+      width:30%
+    }
+}
+
+

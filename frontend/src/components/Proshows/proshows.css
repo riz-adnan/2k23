@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=ABeeZee:400,400i&display=swap");
+
+:root {
+    --gradient: linear-gradient(90deg, #fcd45c, #e86c71, #0c8ce9, #6dd59c);
+}
+
+.pr-app {
+    background-color: black;
+}
+
+.pr-main {
+    background-image: url("./main.gif");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pr-title {
+    color: white;
+    font-family: "Good Times", cursive;
+    text-shadow: 0px 0px 40px white;
+    font-size: 100px;
+}
+
+.pr-booking {
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.pr-book {
+    font-family: "Righteous", sans-serif;
+    font-style: normal;
+    font-size: 64px;
+    height: 121px;
+    width: 438px;
+    color: white;
+    /* border-image: linear-gradient(90deg, #fcd45c, #e86c71, #0c8ce9, #6dd59c);
+    border-image-slice: 1; */
+    border-radius: 180px;
+    border: double 5px transparent;
+    background-image: linear-gradient(black, black), var(--gradient);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.pr-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 40px;
+
+}
+
+.pr-counter {
+    color: #74F7FD;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'ABeeZee';
+}
+
+.pr-counter > p{
+    font-size: 60px;
+    margin: 0; /* remove default margin */
+}
+
+.counter-show{
+    border: 3px solid #74F7FD;
+    width: 95px;
+    height: 44px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 180px;
+    margin: 0; /* remove default margin */
+}
+
+.inc-dec-buttons{
+    display: flex;
+    flex-direction: column; /* change direction to row */
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.pr-price{
+    color:#74F7FD;
+    font-family: "ABeeZee";
+    font-size: 40px;
+}
+
+.pr-small-booking{
+    position: sticky;
+    top: 15%;
+    z-index: 9999;
+    align-self: flex-end;
+}
+
+.small{
+    margin: 0;
+    backdrop-filter: blur(10px);
+    transform: scale(0.5);
+    transform-origin: top right;
+    border-radius: 25px;
+}
+
+
+@media screen and (max-width: 920px) {
+    .pr-title {
+        font-size: 60px;
+    }
+
+    .pr-book {
+        height: 72px;
+        width: 262px;
+        font-size: 30px;
+    }
+
+    .pr-cards {
+        padding: 5% 5%;
+    }
+
+    .pr-counter{
+        width: 200px;
+    }
+    .pr-counter >p {
+        text-align: center;
+        font-size: 30px;
+    }
+    .counter-show{
+        width: 60px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .inc-dec-buttons{
+        font-size: 20px;
+    }
+
+    .pr-price{
+        font-size: 20px;
+    }
+}

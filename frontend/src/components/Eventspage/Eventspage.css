@@ -1,0 +1,66 @@
+.Eventspage{
+    background-color: #000;
+}
+
+.events-image2{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+}
+
+.upcoming-events,.ongoing-events{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family: 'Good Times', sans-serif;
+}
+
+.event-section{
+    min-height: 20vh;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    position: relative;
+}
+.event-section-two{
+    min-height: 100vh;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    position: relative;
+}
+
+.event-text{
+color: #c9dee7;
+display: flex;
+
+text-shadow: 10px 10px 100px #FC7CD3;
+align-items: center;
+margin:auto;
+}
+
+.sign{
+    display:flex;
+    justify-content:center; 
+    align-items:center; 
+    margin: 250px 0px 0px 0px;
+}
+
+
+.gif-container {
+    display: flex;
+    justify-content: space-between;
+}
+.left-gif {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.right-gif {
+    float: right;
+    margin-top: 30px;
+}
+
+.bottom-gif{
+    max-width: 100%;
+}

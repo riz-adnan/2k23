@@ -1,0 +1,45 @@
+.carousel-Film{   
+    background: url(./../../Images/reel.png) no-repeat center/100% 400px;
+    background-size: cover;
+    width: 100%;
+}
+
+.carouselFilm{
+    height:3%;
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+
+.carouselFilm-track {
+    display:flex;
+    width:calc(21%*18); /*No.of images*(width of image+margin-left+margin-right) * 2*/
+    animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll{
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(calc(-21%*9));/*No.of images*(width of image+margin-left+margin-right)*/
+    }
+}
+
+.imgFilm{
+   height:250px;
+   width:20%;
+   margin:2.4% 1.5% 2.5% 1.5%;
+   display: flex; 
+   align-items:center;
+   justify-content: center;
+   border-radius: 5%;
+}
+
+
+
+
+
+
+

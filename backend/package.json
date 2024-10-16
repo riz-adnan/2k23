@@ -14,10 +14,12 @@
     "passport": "^0.6.0",
     "passport-local-mongoose": "^7.1.2",
     "password": "^0.1.1",
-    "randomstring": "^1.2.3"
+    "randomstring": "^1.2.3",
+    "concurrently" : "^9.0.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "develop": "concurrently \"cd ../frontend && npm start\" \"node server.js\""
   },
   "name": "backend",
   "version": "1.0.0",

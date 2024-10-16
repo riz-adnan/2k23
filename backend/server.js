@@ -18,7 +18,7 @@ const insta = require('instamojo-nodejs');
 const cors = require('cors');
 
 const User = require('./models/User');
-
+const path = require('path');
 const app = express();
 
 app.use(express.static('public'));
@@ -48,7 +48,10 @@ mongoose.connection.on('connected', () => {
 mongoose.connection.on('error', (err) => {
     console.log('Error in connecting to MongoDB', err);
 });
-
+app.use(express.static(path.join(__dirname, '../frontend/build')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
+});
 app.use(
     session({
         secret: SESSION_SECRET, //SESSION_SECRET
